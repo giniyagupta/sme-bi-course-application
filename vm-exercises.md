@@ -33,7 +33,7 @@
 
 
 #### Exercise question:
-*How many column and rows do you see in the output ?*
+*How many column and rows are there in the output ?*
 
 #### End goal:
 
@@ -53,25 +53,28 @@
 
 #### Learning Objective
 
-*One measurable learning objective that this exercise assesses*
+*This excercise assesses learner's undertanding of how unwanted columns/fields are dropped in transpose tool , while rest of the columns are re-arranged to be included in output data*
 
 #### Context
 
-*3 - 4 sentence description of why it’s important to learn how to do this task (linking back to the learning objective). Explain how this would be used in a real-life situation. Why is it useful, what problem does it solve?*
+*Its important to learn how to drop unwanted columns while using transpose tool , otherwise output data may not be as per requirement . Also , keeping unwanted column in output may not allow appropriate usage of  data for next step in the process . It may also lower the data quality. Understanding this concept , allows user to attain Maximum value from data *
 
 #### Steps to be executed by the student (max 6)
 
 *Each bulleted instruction is a complete sentence that describes a specific task.*
 
-- Step 1
-- Step 2
-- Step 3
-- ...
+Step 1 - Drag the transpose tool to canvas , and connect with existing cleansing tool 
+ - Step 2 - Click on the transpose tool to look at the configuration settings.
+ - Step 3 - Select 'Year' field in Key Columns and 'Avg_Life_Satisfaction_Denmark', 'Avg_Life_Satisfaction_Finland', 'Avg_Life_Satisfaction_France'and    'Avg_Life_Satisfaction_Grt_Britain'
+ - Step 4 - Add browse tool after transpose tool and run the workflow
+ - Step 5 - Notice columns not selected in configuration settings are dropped from ouput*
+
 
 #### Exercise question:
-*This is a question presented to learners to check if the steps above were properly completed. It can be a multiple choice question or a question with a 1-3 word answer. It is often not possible to check if all the steps are completed, in this case; the priority is to check that the learner meets the learning objective.*
+*How many column and rows are there in the output ?*
 
 #### End goal:
 
-*Add an image of the final visualization here.*
+*![625204EB6F574F929C8CB567AFEC2B90](https://github.com/giniyagupta/sme-bi-course-application/assets/48961515/b77c5532-a177-4dbc-8883-ad90cd500988)*
+
 
