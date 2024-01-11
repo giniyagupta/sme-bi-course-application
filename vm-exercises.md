@@ -27,9 +27,9 @@
 #### Steps to be executed by the student (max 6)
 
 *- Step 1 - Drag the transpose tool to canvas , and connect with existing select tool 
-- Step 2 - Click on the transpose tool to look at the configuration settings.
-- Step 3 - Select 'entity' field in Key Columns and '2014 Happiness Score', '2015 Happiness Score' and '2016 Happiness Score'
-- Step 4 - Add browse tool after transpose tool and run the workflow*
+ - Step 2 - Click on the transpose tool to look at the configuration settings.
+ - Step 3 - Select 'entity' field in Key Columns and '2014 Happiness Score', '2015 Happiness Score' and '2016 Happiness Score'
+ - Step 4 - Add browse tool after transpose tool and run the workflow*
 
 
 #### Exercise question:
