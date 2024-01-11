@@ -18,27 +18,27 @@
 
 #### Learning Objective
 
-*One measurable learning objective that this exercise assesses*
+*This exercise assesses student's understanding of applying appropriate configuration in transpose (chosing right fields for key columns and data columns) based on required format of data output*
 
 #### Context
 
-*3 - 4 sentence description of why it’s important to learn how to do this task (linking back to the learning objective). Explain how this would be used in a real-life situation. Why is it useful, what problem does it solve?*
+*Its important to learn 'name-value concept' and configuraion settings of transpose tool to understand how this tool re-organizes data by switching columns into rows.Restructuring data is very commonly needed in ETL process to prepare the data for the next step in data manipulation or to add meaning to data e.g it will be easier to summarize the data points when all the required data points are available in column*
 
 #### Steps to be executed by the student (max 6)
 
-*Each bulleted instruction is a complete sentence that describes a specific task.*
+*- Step 1 - Drag the transpose tool to canvas , and connect with existing select tool 
+- Step 2 - Click on the transpose tool to look at the configuration settings.
+- Step 3 - Select 'entity' field in Key Columns and '2014 Happiness Score', '2015 Happiness Score' and '2016 Happiness Score'
+- Step 4 - Add browse tool after transpose tool and run the workflow*
 
-- Step 1
-- Step 2
-- Step 3
-- ...
 
 #### Exercise question:
-*This is a question presented to learners to check if the steps above were properly completed. It can be a multiple choice question or a question with a 1-3 word answer. It is often not possible to check if all the steps are completed, in this case; the priority is to check that the learner meets the learning objective.*
+*How many column and rows do you see in the output ?*
 
 #### End goal:
 
-*Add an image of the final visualization here.*
+*![9D03230C9EAB44F19D904CEB22486A95](https://github.com/giniyagupta/sme-bi-course-application/assets/48961515/5bd0910d-4cd7-4a5e-b198-f425caf3e3d4)*
+
 
 ## 2nd VM Exercise
 
