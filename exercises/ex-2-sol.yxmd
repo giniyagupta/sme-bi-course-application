@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.2">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="186" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">\\corp.mastercard.org\stlproj\Finance\Gateway\8.Support\3.Analytics\Giniya\DataCamp\Question 2\Excercise2-Input.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Excercise2-Input.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Year" size="254" source="File: \\corp.mastercard.org\stlproj\Finance\Gateway\8.Support\3.Analytics\Giniya\DataCamp\Question 2\Excercise2-Input.csv" type="V_String" />
+            <Field name="Avg_Life_Satisfaction_Austria" size="254" source="File: \\corp.mastercard.org\stlproj\Finance\Gateway\8.Support\3.Analytics\Giniya\DataCamp\Question 2\Excercise2-Input.csv" type="V_String" />
+            <Field name="Avg_Life_Satisfaction_Belgium" size="254" source="File: \\corp.mastercard.org\stlproj\Finance\Gateway\8.Support\3.Analytics\Giniya\DataCamp\Question 2\Excercise2-Input.csv" type="V_String" />
+            <Field name="Avg_Life_Satisfaction_Canada" size="254" source="File: \\corp.mastercard.org\stlproj\Finance\Gateway\8.Support\3.Analytics\Giniya\DataCamp\Question 2\Excercise2-Input.csv" type="V_String" />
+            <Field name="Avg_Life_Satisfaction_Denmark" size="254" source="File: \\corp.mastercard.org\stlproj\Finance\Gateway\8.Support\3.Analytics\Giniya\DataCamp\Question 2\Excercise2-Input.csv" type="V_String" />
+            <Field name="Avg_Life_Satisfaction_Finland" size="254" source="File: \\corp.mastercard.org\stlproj\Finance\Gateway\8.Support\3.Analytics\Giniya\DataCamp\Question 2\Excercise2-Input.csv" type="V_String" />
+            <Field name="Avg_Life_Satisfaction_France" size="254" source="File: \\corp.mastercard.org\stlproj\Finance\Gateway\8.Support\3.Analytics\Giniya\DataCamp\Question 2\Excercise2-Input.csv" type="V_String" />
+            <Field name="Avg_Life_Satisfaction_Grt_Britain" size="254" source="File: \\corp.mastercard.org\stlproj\Finance\Gateway\8.Support\3.Analytics\Giniya\DataCamp\Question 2\Excercise2-Input.csv" type="V_String" />
+            <Field name="Avg_Life_Satisfaction_Ireland" size="254" source="File: \\corp.mastercard.org\stlproj\Finance\Gateway\8.Support\3.Analytics\Giniya\DataCamp\Question 2\Excercise2-Input.csv" type="V_String" />
+            <Field name="Avg_Life_Satisfaction_Italy" size="254" source="File: \\corp.mastercard.org\stlproj\Finance\Gateway\8.Support\3.Analytics\Giniya\DataCamp\Question 2\Excercise2-Input.csv" type="V_String" />
+            <Field name="Avg_Life_Satisfaction_Malta" size="254" source="File: \\corp.mastercard.org\stlproj\Finance\Gateway\8.Support\3.Analytics\Giniya\DataCamp\Question 2\Excercise2-Input.csv" type="V_String" />
+            <Field name="Avg_Life_Satisfaction_Netherlands" size="254" source="File: \\corp.mastercard.org\stlproj\Finance\Gateway\8.Support\3.Analytics\Giniya\DataCamp\Question 2\Excercise2-Input.csv" type="V_String" />
+            <Field name="Avg_Life_Satisfaction_N_Ireland" size="254" source="File: \\corp.mastercard.org\stlproj\Finance\Gateway\8.Support\3.Analytics\Giniya\DataCamp\Question 2\Excercise2-Input.csv" type="V_String" />
+            <Field name="Avg_Life_Satisfaction_Norway" size="254" source="File: \\corp.mastercard.org\stlproj\Finance\Gateway\8.Support\3.Analytics\Giniya\DataCamp\Question 2\Excercise2-Input.csv" type="V_String" />
+            <Field name="Avg_Life_Satisfaction_Portugal" size="254" source="File: \\corp.mastercard.org\stlproj\Finance\Gateway\8.Support\3.Analytics\Giniya\DataCamp\Question 2\Excercise2-Input.csv" type="V_String" />
+            <Field name="Avg_Life_Satisfaction_Spain" size="254" source="File: \\corp.mastercard.org\stlproj\Finance\Gateway\8.Support\3.Analytics\Giniya\DataCamp\Question 2\Excercise2-Input.csv" type="V_String" />
+            <Field name="Avg_Life_Satisfaction_Sweden" size="254" source="File: \\corp.mastercard.org\stlproj\Finance\Gateway\8.Support\3.Analytics\Giniya\DataCamp\Question 2\Excercise2-Input.csv" type="V_String" />
+            <Field name="Avg_Life_Satisfaction_United_States" size="254" source="File: \\corp.mastercard.org\stlproj\Finance\Gateway\8.Support\3.Analytics\Giniya\DataCamp\Question 2\Excercise2-Input.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="378" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="Year" />
+          </KeyFields>
+          <DataFields>
+            <Field field="Year" selected="False" />
+            <Field field="Avg_Life_Satisfaction_Austria" selected="False" />
+            <Field field="Avg_Life_Satisfaction_Belgium" selected="False" />
+            <Field field="Avg_Life_Satisfaction_Canada" selected="False" />
+            <Field field="Avg_Life_Satisfaction_Denmark" selected="True" />
+            <Field field="Avg_Life_Satisfaction_Finland" selected="True" />
+            <Field field="Avg_Life_Satisfaction_France" selected="True" />
+            <Field field="Avg_Life_Satisfaction_Grt_Britain" selected="True" />
+            <Field field="Avg_Life_Satisfaction_Ireland" selected="False" />
+            <Field field="Avg_Life_Satisfaction_Italy" selected="False" />
+            <Field field="Avg_Life_Satisfaction_Malta" selected="False" />
+            <Field field="Avg_Life_Satisfaction_Netherlands" selected="False" />
+            <Field field="Avg_Life_Satisfaction_N_Ireland" selected="False" />
+            <Field field="Avg_Life_Satisfaction_Norway" selected="False" />
+            <Field field="Avg_Life_Satisfaction_Portugal" selected="False" />
+            <Field field="Avg_Life_Satisfaction_Spain" selected="True" />
+            <Field field="Avg_Life_Satisfaction_Sweden" selected="True" />
+            <Field field="Avg_Life_Satisfaction_United_States" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings>
+        <Position x="282" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Year","Avg_Life_Satisfaction_Austria","Avg_Life_Satisfaction_Belgium","Avg_Life_Satisfaction_Canada","Avg_Life_Satisfaction_Denmark","Avg_Life_Satisfaction_Finland","Avg_Life_Satisfaction_France","Avg_Life_Satisfaction_Grt_Britain","Avg_Life_Satisfaction_Ireland","Avg_Life_Satisfaction_Italy","Avg_Life_Satisfaction_Malta","Avg_Life_Satisfaction_Netherlands","Avg_Life_Satisfaction_N_Ireland","Avg_Life_Satisfaction_Norway","Avg_Life_Satisfaction_Portugal","Avg_Life_Satisfaction_Spain","Avg_Life_Satisfaction_Sweden","Avg_Life_Satisfaction_United_States"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="474" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\e147556\AppData\Local\Temp\1\Engine_6732_1040f5bc9cba4b3da5ca6dcac694d55c_\Engine_52148_b6cd311e88374509a62149136016f5c8_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output26" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>ex-2-sol</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="f5476e4b-9afd-4246-b7ce-c7a2ecfbb1be" />
+      <Telemetry>
+        <PreviousWorkflowId value="d7e62f0d-bd98-4a7e-a396-236154ffc526" />
+        <OriginWorkflowId value="f5476e4b-9afd-4246-b7ce-c7a2ecfbb1be" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

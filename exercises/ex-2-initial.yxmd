@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.2">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="450" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">\\corp.mastercard.org\stlproj\Finance\Gateway\8.Support\3.Analytics\Giniya\DataCamp\Question 2\Excercise2-Input.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Excercise2-Input.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Year" size="254" source="File: \\corp.mastercard.org\stlproj\Finance\Gateway\8.Support\3.Analytics\Giniya\DataCamp\Question 2\Excercise2-Input.csv" type="V_String" />
+            <Field name="Avg_Life_Satisfaction_Austria" size="254" source="File: \\corp.mastercard.org\stlproj\Finance\Gateway\8.Support\3.Analytics\Giniya\DataCamp\Question 2\Excercise2-Input.csv" type="V_String" />
+            <Field name="Avg_Life_Satisfaction_Belgium" size="254" source="File: \\corp.mastercard.org\stlproj\Finance\Gateway\8.Support\3.Analytics\Giniya\DataCamp\Question 2\Excercise2-Input.csv" type="V_String" />
+            <Field name="Avg_Life_Satisfaction_Canada" size="254" source="File: \\corp.mastercard.org\stlproj\Finance\Gateway\8.Support\3.Analytics\Giniya\DataCamp\Question 2\Excercise2-Input.csv" type="V_String" />
+            <Field name="Avg_Life_Satisfaction_Denmark" size="254" source="File: \\corp.mastercard.org\stlproj\Finance\Gateway\8.Support\3.Analytics\Giniya\DataCamp\Question 2\Excercise2-Input.csv" type="V_String" />
+            <Field name="Avg_Life_Satisfaction_Finland" size="254" source="File: \\corp.mastercard.org\stlproj\Finance\Gateway\8.Support\3.Analytics\Giniya\DataCamp\Question 2\Excercise2-Input.csv" type="V_String" />
+            <Field name="Avg_Life_Satisfaction_France" size="254" source="File: \\corp.mastercard.org\stlproj\Finance\Gateway\8.Support\3.Analytics\Giniya\DataCamp\Question 2\Excercise2-Input.csv" type="V_String" />
+            <Field name="Avg_Life_Satisfaction_Grt_Britain" size="254" source="File: \\corp.mastercard.org\stlproj\Finance\Gateway\8.Support\3.Analytics\Giniya\DataCamp\Question 2\Excercise2-Input.csv" type="V_String" />
+            <Field name="Avg_Life_Satisfaction_Ireland" size="254" source="File: \\corp.mastercard.org\stlproj\Finance\Gateway\8.Support\3.Analytics\Giniya\DataCamp\Question 2\Excercise2-Input.csv" type="V_String" />
+            <Field name="Avg_Life_Satisfaction_Italy" size="254" source="File: \\corp.mastercard.org\stlproj\Finance\Gateway\8.Support\3.Analytics\Giniya\DataCamp\Question 2\Excercise2-Input.csv" type="V_String" />
+            <Field name="Avg_Life_Satisfaction_Malta" size="254" source="File: \\corp.mastercard.org\stlproj\Finance\Gateway\8.Support\3.Analytics\Giniya\DataCamp\Question 2\Excercise2-Input.csv" type="V_String" />
+            <Field name="Avg_Life_Satisfaction_Netherlands" size="254" source="File: \\corp.mastercard.org\stlproj\Finance\Gateway\8.Support\3.Analytics\Giniya\DataCamp\Question 2\Excercise2-Input.csv" type="V_String" />
+            <Field name="Avg_Life_Satisfaction_N_Ireland" size="254" source="File: \\corp.mastercard.org\stlproj\Finance\Gateway\8.Support\3.Analytics\Giniya\DataCamp\Question 2\Excercise2-Input.csv" type="V_String" />
+            <Field name="Avg_Life_Satisfaction_Norway" size="254" source="File: \\corp.mastercard.org\stlproj\Finance\Gateway\8.Support\3.Analytics\Giniya\DataCamp\Question 2\Excercise2-Input.csv" type="V_String" />
+            <Field name="Avg_Life_Satisfaction_Portugal" size="254" source="File: \\corp.mastercard.org\stlproj\Finance\Gateway\8.Support\3.Analytics\Giniya\DataCamp\Question 2\Excercise2-Input.csv" type="V_String" />
+            <Field name="Avg_Life_Satisfaction_Spain" size="254" source="File: \\corp.mastercard.org\stlproj\Finance\Gateway\8.Support\3.Analytics\Giniya\DataCamp\Question 2\Excercise2-Input.csv" type="V_String" />
+            <Field name="Avg_Life_Satisfaction_Sweden" size="254" source="File: \\corp.mastercard.org\stlproj\Finance\Gateway\8.Support\3.Analytics\Giniya\DataCamp\Question 2\Excercise2-Input.csv" type="V_String" />
+            <Field name="Avg_Life_Satisfaction_United_States" size="254" source="File: \\corp.mastercard.org\stlproj\Finance\Gateway\8.Support\3.Analytics\Giniya\DataCamp\Question 2\Excercise2-Input.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings>
+        <Position x="546" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Year","Avg_Life_Satisfaction_Austria","Avg_Life_Satisfaction_Belgium","Avg_Life_Satisfaction_Canada","Avg_Life_Satisfaction_Denmark","Avg_Life_Satisfaction_Finland","Avg_Life_Satisfaction_France","Avg_Life_Satisfaction_Grt_Britain","Avg_Life_Satisfaction_Ireland","Avg_Life_Satisfaction_Italy","Avg_Life_Satisfaction_Malta","Avg_Life_Satisfaction_Netherlands","Avg_Life_Satisfaction_N_Ireland","Avg_Life_Satisfaction_Norway","Avg_Life_Satisfaction_Portugal","Avg_Life_Satisfaction_Spain","Avg_Life_Satisfaction_Sweden","Avg_Life_Satisfaction_United_States"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input2" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>ex-1-initial</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="4166b267-2280-475a-a30f-c89c1f7fe888" />
+      <Telemetry>
+        <PreviousWorkflowId value="31b3976c-be12-4eeb-a4bb-81895706dc0b" />
+        <OriginWorkflowId value="4166b267-2280-475a-a30f-c89c1f7fe888" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
